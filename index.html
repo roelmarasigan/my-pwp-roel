@@ -6,9 +6,172 @@
     <title>Vite App</title>
 </head>
 <body>
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+
+
+
+<section class="container container-mx-auto">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-front justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Dojo</span>
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                </li>
+                            </ul>
+                            <div class="py-1">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">About Me</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+
+<section class="bg-white dark:bg-gray-900 container container mx-auto">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-green-700 md:text-5xl lg:text-6xl dark:text-white">Get Lost in the Gentle Art:</h1>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Here at the Dojo we provide a schedule so that anybody can have an excellent training experience inside a well-kept sanitary facility. </p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+            <a href="#" class="py-3 px-5 sm:ms-4 text-sm font-medium text-green-700 focus:outline-none bg-white rounded-lg border border-green-300 hover:bg-gray-100 hover:text-green-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70">
+                Learn more
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="container container-mx-auto">
+    <div class="bg-slate-300 text-gray-900 border border-purple-900 border-width:2px rounded-xl p-8">
+        <h2 class="text-2xl">Welcome to the Dojo:</h2>
+        <p>My name is coach Tear Lock, I am a fitness/Jiu Jitsu coach where I take schedules for private
+            lessons.</p>
+
+        <h2 class="text-2xl">About Me:</h2>
+        <p> I have over 30 years of Jiu Jitsu experience where I traveled around the globe for competitions as a black belt.
+            I've won gold in Brazil, Portugal, Las Vegas, Abu Dhabi. There have been many big names that have competed with me with also an
+            extensive background of not just Jiu Jitsu but Martial Arts. Some big names such as Liyoto Machida and Jon Jones who share their karate or kickboxing knowledge with me when sparring.
+            The opportunity to live this lifestyle creates a solid, friendly network of skilled martial artists.
+            I share the pleasure of having some of martial artists drop in as a guest to help coach students/competitors as well.</p>
+
+        <h2 class="text-2xl">Portfolio: </h2>
+        <p>I have trained under a family line of black belts under the house of Grandmaster Helio Gracie since 1992 starting in a garage in Torrance, Ca. My skillset enhanced when
+            I entered training for UFC 4, 5, 6. This allows me to integrate other disciplines such as kickboxing and capoeira (Brazilian martial arts combined with dance and acrobatics) when
+            coaching students. My wife who is a yoga instructor who studied as a young yogi at a temple in India for 2 summers in college of 92 has worked with me on integrating a stretching and
+            breathing exercise as a cool down post intensive training.</p>
+
+    </div>
+
+</section>
+
+
+<section class="grid grid-cols-5  mt-8 gap:2rem">
+    <div class="border border-purple-900 border-width:2px rounded-xl p-8 m-2">
+        <p>
+        <ol>
+            <li><strong>Thursday: Guard control, sweep from bottom</strong></li>
+            <li> 10:00 AM	warm up, light drill of basic body movement</li>
+            <li> 10:15 AM	technique offense, defense *Triangle</li>
+            <li> 10:30 AM	endurance, agility training</li>
+            <li> 10:45 AM	burnout, 75% technique offense, defense, - last round spar.</li>
+            <li>11:00 AM	 meditate. cooldown stretch</li>
+        </ol>
+    </div>
+    <div class="border border-purple-900 border-width:2px rounded-xl p-8 m-2">
+        <p>
+        <ol>
+            <li><strong>Friday: Control of arm for arm bar position</strong></li>
+            <li> 10:00 AM	warm up, light drill of basic body movement</li>
+            <li> 10:15 AM	technique offense, defense *Triangle</li>
+            <li> 10:30 AM	endurance, agility training</li>
+            <li> 10:45 AM	burnout, 75% technique offense, defense, - last round spar.</li>
+            <li>11:00 AM	 meditate. cooldown stretch</li>
+        </ol>
+    </div>
+    <div class="border border-purple-900 border-width:2px rounded-xl p-8 m-2">
+        <p>
+        <ol>
+            <li><strong>Saturday: Use of legs for Triangle attack</strong></li>
+            <li> 10:00 AM	warm up, light drill of basic body movement</li>
+            <li> 10:15 AM	technique offense, defense *Triangle</li>
+            <li> 10:30 AM	endurance, agility training</li>
+            <li> 10:45 AM	burnout, 75% technique offense, defense, - last round spar.</li>
+            <li>11:00 AM	 meditate. cooldown stretch</li>
+        </ol>
+    </div>
+    <div class="border border-purple-900 border-width:2px rounded-xl p-8 m-2">
+        <ol>
+            <li><strong>Sunday: Use of Back position for Rear-Naked Choke</strong></li>
+            <li> 10:00 AM	warm up, light drill of basic body movement</li>
+            <li> 10:15 AM	technique offense, defense *Triangle</li>
+            <li> 10:30 AM	endurance, agility training</li>
+            <li> 10:45 AM	burnout, 75% technique offense, defense, - last round spar.</li>
+            <li>11:00 AM	 meditate. cooldown stretch</li>
+        </ol>
+    </div>
+</section>
+
+
+<section>
+    <div>
+        <h2 class="text-2xl">Contact:</h2>
+    </div>
+    <div class="display flex flex-col-1">
+        <label>Name:</label>
+        <label>Email:</label>
+        <label>number:</label>
+
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write messages here"></textarea>
+
+    </div>
+</section>
+
+
+
+
 
 <script type="module" src="/src/main.js"></script>
 </body>

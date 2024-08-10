@@ -1,15 +1,21 @@
 {
-  "name": "my-pwp-roel",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "watch": " npx tailwindcss -i src/index.css -o ./dist/output.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  },
   "dependencies": {
-    "json": "^11.0.0"
+    "autoprefixer": "^10.4.19",
+    "flowbite": "^2.3.0",
+    "postcss": "^8.4.38"
   }
 }
