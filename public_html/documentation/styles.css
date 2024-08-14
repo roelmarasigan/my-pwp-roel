@@ -1,0 +1,7 @@
+
+
+.contact {
+    display: grid;
+    grid-auto-columns:1fr;
+    border: darkgreen;
+}

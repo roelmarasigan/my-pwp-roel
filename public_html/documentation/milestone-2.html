@@ -1,15 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind Code Along</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-
 
 <section class="container container-mx-auto">
 <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -67,7 +66,7 @@
 </section>
 
 
-<section class="bg-white dark:bg-gray-900 container container mx-auto">
+<section class="bg-white dark:bg-gray-900 container mx-auto">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-green-700 md:text-5xl lg:text-6xl dark:text-white">Get Lost in the Gentle Art:</h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Here at the Dojo we provide a schedule so that anybody can have an excellent training experience inside a well-kept sanitary facility. </p>
@@ -85,7 +84,7 @@
     </div>
 </section>
 
-<section class="container container-mx-auto">
+<section class="container mx-auto">
     <div class="bg-slate-300 text-gray-900 border border-purple-900 border-width:2px rounded-xl p-8">
         <h2 class="text-2xl">Welcome to the Dojo:</h2>
         <p>My name is coach Tear Lock, I am a fitness/Jiu Jitsu coach where I take schedules for private
@@ -105,11 +104,9 @@
             breathing exercise as a cool down post intensive training.</p>
 
     </div>
-
 </section>
 
-
-<section class="grid grid-cols-5  mt-8 gap:2rem">
+<section class="container mx-auto grid grid-cols-5 mt-8 gap:2rem justify-center">
     <div class="border border-purple-900 border-width:2px rounded-xl p-8 m-2">
         <p>
         <ol>
@@ -156,24 +153,28 @@
 </section>
 
 
-<section>
-    <div>
-        <h2 class="text-2xl">Contact:</h2>
-    </div>
-    <div class="display flex flex-col gap-2">
-        <label>Name:</label>
-        <label>Email:</label>
-        <label>number:</label>
+<!--<form class="max-w-md mx-auto">-->
+<!--    <div>-->
+<!--        <h2 class="text-2xl">Contact:</h2>-->
+<!--    </div>-->
+<!--    <div class="relative z-0 w-full mb-5 group">-->
+<!--        <div>-->
+<!--        <label>Name:</label>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--        <label>Email:</label>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--        <label>number:</label>-->
+<!--        </div>-->
 
-        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write messages here"></textarea>
+<!--        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>-->
+<!--        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write messages here"></textarea>-->
+<!--        <button>Submit</button>-->
+<!--    </div>-->
+<!--</form>-->
 
-    </div>
-</section>
-
-
-
-
+    <footer class="bg-green-700 text-gray-600 text-center">Dojo Sked 2024</footer>
 
 <script type="module" src="/src/main.js"></script>
 </body>
