@@ -214,7 +214,7 @@ jobs:
       - name: Deploy to server
         run: |
          ssh-keyscan -H rogeliom.com >> ~/.ssh/known_hosts 
-         scp -r ./dist/* gkephart@rogeliom.com:/var/www/rogeliom.com/html
+         scp -r ./dist/* rmarasigan@rogeliom.com:/var/www/rogeliom.com/html
 ```
 - Push your changes to github to trigger the action and test deploying your site
 
