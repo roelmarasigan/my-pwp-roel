@@ -220,7 +220,7 @@ jobs:
 
 
 
-
 ## Nginx Documentation
 - [nginx documentation used](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04#step-5-setting-up-server-blocks-recommended)
-- [Certbot documentation used](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
+- [Certbot documentation used
+](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
